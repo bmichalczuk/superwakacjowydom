@@ -11,9 +11,11 @@ const config: Config = {
 			colors: {
 				background: "var(--background)",
 				foreground: "var(--foreground)",
+				red: "var(--red)",
 			},
 		},
 	},
 	plugins: [],
 };
+// eslint-disable-next-line import/no-default-export
 export default config;

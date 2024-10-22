@@ -23,7 +23,7 @@
 		"import/no-default-export": "error",
 
 		// allow {} even though it's unsafe but comes handy
-		"@typescript-eslint/ban-types": [
+		"@typescript-eslint/no-empty-object-type": [
 			"error",
 			{
 				"types": {
