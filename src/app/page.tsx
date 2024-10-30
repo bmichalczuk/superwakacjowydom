@@ -1,4 +1,9 @@
-import { HeroSection } from "./ui/organisms/HeroSection";
+import { HeroSection } from "./ui/molecules/HeroSection";
+
 export default function Home() {
-	return <main>ds</main>;
+	return (
+		<main>
+			<HeroSection />
+		</main>
+	);
 }
